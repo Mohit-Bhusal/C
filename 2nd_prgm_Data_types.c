@@ -7,10 +7,10 @@
 int main(){
 float first;
 int second; 
-printf("enter first number: ");
-scanf("%f",&first);
-printf("Enter second number: ");
-scanf("%d",&second);
+printf("enter first number: "); scanf("%f",&first);
+
+printf("Enter second number: "); scanf("%d",&second);
+
 float sum = first + second;  
 
 printf("The sum is %f",sum);  //we use %f for float and *d for intiger
