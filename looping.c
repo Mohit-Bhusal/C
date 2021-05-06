@@ -25,6 +25,14 @@ int main(){
         printf("%d \n",a);
         a++;
     }
-    return 0;  
+// do while loop
+    int d;
+    do{
+        d++;
+        printf("This is done till the while condition is not false");
+    }while (d<10);
+    
+     return 0;  
+
 }
 
